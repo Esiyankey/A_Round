@@ -1,0 +1,22 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Esiyankey/AroundProject.git"
+  },
+  "author": "Grace Yankey",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Esiyankey/AroundProject/issues"
+  },
+  "homepage": "https://github.com/Esiyankey/AroundProject#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}

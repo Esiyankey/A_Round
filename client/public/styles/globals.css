@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body{
+  min-height: 100vh;
+  background: radial-gradient(circle, rgba(35,27,76,1) 0%, rgba(13,18,36,1) 100%);
+}
+.slide-down-menu {
+    /* max-height: 0; */
+    overflow: hidden;
+    transition: max-height 0.3s ease-in-out;
+  }
+  
+  .slide-down-menu.active {
+    max-height: 500px; /* Adjust the max height to suit your content */
+  }
+  .backgroundGradientButton{
+    background: linear-gradient(120deg, #e72eb6, #8d25e7);
+  }
+
+  .hoverButton:hover{
+    gap: 1.5rem;
+  }
+  /* In your CSS or a separate CSS file */
+.gradient-border {
+    position: relative;
+    background-clip: content-box; /* This ensures that the gradient won't overlap the content */
+  }
+  
+  .gradient-border::before,
+  .gradient-border::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+  }
+  
+  .gradient-border::before {
+    border: 2px solid transparent; /* Adjust border thickness as needed */
+    background: linear-gradient(to right, #e72eb6, #8d25e7);
+  }
+  
+  .gradient-border::after {
+    content: none;
+  }
+  
