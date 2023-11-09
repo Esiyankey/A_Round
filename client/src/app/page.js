@@ -197,14 +197,14 @@ export default function Home() {
             </div>
             <div className="flex justify-center items-center">
               <div className=" w-80 relative md:w-[400px] h-[300px]">
-                <Image src="/images/aroundImage.png" layout="fill" />
+                <Image src="/images/aroundImage.png" fill={true} />
               </div>
             </div>
           </div>
           <div className="md:grid   flex flex-col-reverse mt-28 gap-8 my-4  md:grid-cols-2">
             <div className="flex justify-center items-center">
               <div className=" w-80 relative md:w-[400px] h-[300px]">
-                <Image src="/images/aroundImage2.png" layout="fill" />
+                <Image src="/images/aroundImage2.png" fill={true} />
               </div>
             </div>
             <div className="md:mx-4 mx-2">
@@ -245,14 +245,14 @@ export default function Home() {
             </div>
             <div className="flex justify-center items-center">
               <div className="w-80 relative md:w-[400px] h-[300px]">
-                <Image src="/images/aroundImage3.png" layout="fill" />
+                <Image src="/images/aroundImage3.png" fill={true} />
               </div>
             </div>
           </div>
           <div className="md:grid  flex flex-col-reverse mt-28 gap-8 my-4 md:my-10 md:grid-cols-2">
             <div className="flex justify-center items-center">
               <div className="w-80 relative md:w-[400px] h-[500px]">
-                <Image src="/images/aroundImage4.png" layout="fill" />
+                <Image src="/images/aroundImage4.png" fill={true} />
               </div>
             </div>
             <div className="mx-4 ">
@@ -295,7 +295,7 @@ export default function Home() {
                 className="w-[330px] bg-[#12172a] rounded-xl border overflow-hidden border-[#262b42]"
               >
                 <div className="relative w-full h-[198px]">
-                  <Image src={items.img} layout="fill" />
+                  <Image src={items.img} fill={true} />
                 </div>
                 <div className="p-6">
                   <h3 className=" leading-4 mb-4 text-lg font-semibold text-white">
