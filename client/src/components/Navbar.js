@@ -3,8 +3,8 @@ import { useState, useEffect } from "react";
 import { FaBars } from "react-icons/fa";
 import Image from "next/image";
 import Link from "next/link";
-import "../../../public/styles/navbar.css";
-import "../app/navbar.css";
+import "../styles/navbar.css";
+
 export const Navbar = () => {
   const [showMenu, setShowMenu] = useState(false);
   const [scroll, setScroll] = useState(false);
@@ -41,6 +41,7 @@ export const Navbar = () => {
               alt="A.round logo"
               width={100}
               height={10}
+              layout="fixed"
             />
             <Image
               src="/images/a-round.png"
@@ -48,6 +49,7 @@ export const Navbar = () => {
               className="relative right-7 "
               width={100}
               height={10}
+              layout="fixed"
             />
           </div>
           <div className=" leading-none items-center   md:flex">
