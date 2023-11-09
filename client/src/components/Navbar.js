@@ -29,7 +29,7 @@ export const Navbar = () => {
   };
   return (
     <>
-      <nav
+      <div
         className={`flex  justify-between  lg:px-60  top-0 fixed w-full z-20 m-auto  items-center  lg:flex ${
           scroll ? "active" : ""
         }`}
@@ -86,7 +86,7 @@ export const Navbar = () => {
             />
           </button>
        
-      </nav>
+      </div>
       {/* 
             "use client";
 import { useState } from "react";
